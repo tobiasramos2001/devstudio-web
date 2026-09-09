@@ -1,0 +1,30 @@
+HEADER
+Logo/nombre | Inicio | Servicios | Portfolio | Contacto
+
+HERO
+Mensaje principal
+Descripción
+Botones
+Imagen tecnológica
+
+SERVICIOS
+Desarrollo Web
+Aplicaciones Web
+Bases de Datos
+Mantenimiento / Soporte
+
+PORTFOLIO
+Proyecto 1
+Proyecto 2
+Proyecto 3
+
+CONTACTO
+Datos de contacto
+Formulario
+
+FOOTER
+Nombre
+Instagram
+LinkedIn
+GitHub
+WhatsApp
