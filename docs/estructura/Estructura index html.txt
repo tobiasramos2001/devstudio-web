@@ -7,16 +7,55 @@ Descripción
 Botones
 Imagen tecnológica
 
-SERVICIOS
+SERVICIOS                            
 Desarrollo Web
 Aplicaciones Web
 Bases de Datos
 Mantenimiento / Soporte
 
+{Estructura de servicios}
+services
+│
+├── services-header
+│   ├── título + línea azul
+│   └── Ver más detalles →
+│
+└── services-cards
+    ├── service-card
+    ├── service-card
+    ├── service-card
+    └── service-card
+
 PORTFOLIO
 Proyecto 1
 Proyecto 2
 Proyecto 3
+
+{Estructura de portfolio}
+portfolio-section
+│
+├── portfolio-header
+│
+└── portfolio-cards
+    ├── portfolio-card
+    ├── portfolio-card
+    └── portfolio-card
+
+
+    portfolio-card
+    │
+    ├── portfolio-image
+    │   └── img
+    │
+    portfolio-content
+    │
+    ├── portfolio-text
+    │   ├── Power Gym
+    │   └── Landing Page
+    │
+    └── portfolio-project-link
+    └── icono ↗
+
 
 CONTACTO
 Datos de contacto
