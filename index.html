@@ -158,10 +158,16 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form action="" method="post">
-                        <input type="text" placeholder="Nombre" id="input-name">
-                        <input type="email" placeholder="Email" id="input-email">
-                        <textarea placeholder="Mensaje" id="input-message"></textarea>
+                    <form id="form-contacto" action="https://api.web3forms.com/submit" method="POST">
+                        <!--Calve dea acceso para identificar nuestro formulario-->
+                        <input type="hidden" name="access_key" value="ca10a9e9-bfa2-47fc-a3e5-dab92cd6a41c">
+                        <!--Asunto del correo cuando se envie desde la pagina-->
+                        <input type="hidden" name="subject" value="Nuevo mensaje desde ByT Engine">
+                        <!--honypot(tecnica antispam, ssi un bot lo completa el servicio lo ignora)-->
+                        <input type="checkbox" name="botcheck" style="display: none;">
+                        <input type="text" placeholder="Nombre" id="input-name" name="name" required>
+                        <input type="email" placeholder="Email" id="input-email" name="email" required>
+                        <textarea placeholder="Mensaje" id="input-message" name="message" required></textarea>
                         <button type="submit" id="btm-enviar">
                             Enviar mensaje
                         </button>
